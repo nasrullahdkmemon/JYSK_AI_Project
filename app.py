@@ -29,7 +29,7 @@ app.add_middleware(
 tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")  # Change if different
 
 # ✅ Load Your Fine-Tuned Model
-model_path = "D:/jysk_ai_project/final_model.pt"
+model_path = "D:/jysk_ai_project/models/final_model.pt"
 num_labels = len(LABELS)  # Ensure this matches your trained model
 
 try:
