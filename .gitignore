@@ -1,0 +1,15 @@
+# Ignore virtual environment directories
+venv/
+myenv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore model files
+models/
+
+# Ignore other non-essential files
+.ipynb_checkpoints/
+.tmp.driveupload/
+results/
